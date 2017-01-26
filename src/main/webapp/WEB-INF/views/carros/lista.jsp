@@ -17,15 +17,16 @@
 			</thead>
 			<tbody>
 				<c:forEach items="${carros}" var="carro">
-					<td class="text-center">${carro.modelo }
-					</td>
-					<td class="text-center">${carro.cor }
-					</td>
-					<td class="text-center">${carro.marca }
-					</td>
-					<td class="text-center">${carro.ano }
-					</td>
-			
+					<tr>
+						<td class="text-center">${carro.modelo }
+						</td>
+						<td class="text-center">${carro.cor }
+						</td>
+						<td class="text-center">${carro.marca }
+						</td>
+						<td class="text-center">${carro.ano }
+						</td>
+					</tr>
 				</c:forEach>
 			</tbody>
 		</table>
